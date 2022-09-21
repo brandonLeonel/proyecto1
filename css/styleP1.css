@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/**responsive P1**/
+/**propiedades del header**/
+@media (max-width:800px){
+    body{
+        font-size: 62.5%;
+    }
+    header{
+    background-color: rgb(209, 246, 193);
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 1rem;
+    position: sticky;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+}
+.caja-iconos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 100, 56);
+}
+.icono{ 
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+}
+/*.lupa{
+    height: 2rem;
+    width: 2rem;
+}*/
+.caja-barras{
+    display: flex;
+    justify-content: center;
+}
+.barras{
+    height: 2rem;
+    width: 2rem;
+}
+.caja-barras p{
+    position: absolute;
+    margin-top: 0.9rem;
+    color: rgb(18, 14, 14);
+}
+.caja-links{
+    background-color:  rgb(161, 100, 56);
+    margin-top: 0.3rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin-right: 1rem;
+}
+/**aca empiezan las propiedades del body**/
+aside{
+    background-color: red;
+    margin-bottom: 1rem;
+}
+.cardsP1{
+    background-color: aquamarine;
+    width: 100%;
+    height: 16rem;
+    margin-bottom: 3rem;
+    border: red solid 1px;
+}
+.caja-imgCardsP1{
+    width: 100%;
+    height: 100%;
+}
+.imgCardsP1{
+    width: 100%;
+    height: 16rem;
+}
+.caja-textoCardsP1{
+    position: relative;
+    bottom: 8rem;
+    z-index: 10;
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.textoImg{
+    color: white;
+}
+footer{
+    background-color: rgb(161, 100, 56);
+}
+}
+
+
+
+
+
+
+
+/**propiedades descktop p1**/
+@media (min-width:801px){
+    body{
+        font-size: 62.5%;
+    }
+    .grilla-general{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main   aside"
+        "main   aside"
+        "footer footer";
+        grid-template-columns: 3fr 1fr;
+    }
+header{
+    background-color: rgb(209, 246, 193);
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 1rem;
+    position: sticky;
+    /*top: ;*/
+    display: grid;
+    grid-area: header;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+}
+.caja-iconos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 100, 56);
+}
+.icono{ 
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+}
+/*.lupa{
+    height: 2rem;
+    width: 2rem;
+}*/
+.caja-barras{
+    display: none;
+}
+.barras{
+    display: none;
+}
+.caja-barras p{
+    display: none;
+}
+.caja-links{
+    background-color:  rgb(161, 100, 56);
+    margin-top: 0.3rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}
+/*aca empiezan las propiedades del body*/
+aside{
+    display: grid;
+    grid-area: aside;
+    height: 100%;
+    background-color: red;
+}
+main{
+    display: grid;
+    grid-area: main;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.cardsP1{
+    background-color: aquamarine;
+    height: 16rem;
+    margin-bottom: 1rem;
+    border: red solid 1px;
+}
+.caja-imgCardsP1{
+    width: 100%;
+    height: 100%;
+}
+.imgCardsP1{
+    width: 100%;
+    height: 16rem;
+}
+.imgCardsP1:hover{
+    width: 50%;
+    transition: 2s;
+}
+.caja-textoCardsP1{
+    position: relative;
+    bottom: 8rem;
+    z-index: 10;
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.textoImg{
+    color: white;
+}
+footer{
+    display: grid;
+    grid-area: footer;
+    background-color: rgb(161, 100, 56);
+}
+}

@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/**responsive P4**/
+@media (max-width:800px){
+    body{
+        font-size: 62.5%;
+    }
+    header{
+    background-color: rgb(209, 246, 193);
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 1rem;
+    position: sticky;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+}
+.caja-iconos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 100, 56);
+}
+.icono{ 
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+}
+/*.lupa{
+    height: 2rem;
+    width: 2rem;
+}*/
+.caja-barras{
+    display: flex;
+    justify-content: center;
+}
+.barras{
+    height: 2rem;
+    width: 2rem;
+}
+.caja-barras p{
+    position: absolute;
+    margin-top: 0.9rem;
+    color: rgb(18, 14, 14);
+}
+.caja-links{
+    background-color:  rgb(161, 100, 56);
+    margin-top: 0.3rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin-right: 1rem;
+}
+/*aca empiezan las propiedades del body*/
+body{
+ /* background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid red 2px;
+    height: 30rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+.caja-formulario{ 
+    width: 80%;  
+    height: 30%; 
+    margin-top: 1rem; 
+}
+.formulario{
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-right: none;
+    border-color: rgb(209, 246, 193);
+    padding-top: 5.5rem;
+    background-color: transparent;
+}
+.formulario:hover{
+    box-shadow: 0rem 0.5rem 1rem 0 black;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.formulario::placeholder{
+    color: rgb(161, 100, 56);
+    font-size: 2rem;
+}
+.caja-textarea{
+    /* border: solid red 2px; */
+    width: 80%;  
+    height: 40%; 
+    margin-top: 1rem; 
+}
+.textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: transparent;
+}
+.textarea::placeholder{
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.caja-boton{
+    width: 6rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.boton{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: rgb(161, 100, 56);
+    height: 4rem;
+}
+}
+
+
+/**propiedades descktop p4**/
+@media (min-width:801px){
+    body{
+        font-size: 62.5%;
+    }
+    .grilla-general{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main   aside"
+        "main   aside"
+        "footer footer";
+        grid-template-columns: 3fr 1fr;
+    }
+header{
+    background-color: rgb(209, 246, 193);
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 1rem;
+    position: sticky;
+     /*top: ;*/
+    display: grid;
+    grid-area: header;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+}
+.caja-iconos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 100, 56);
+}
+.icono{ 
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+}
+/*.lupa{
+    height: 2rem;
+    width: 2rem;
+}*/
+.caja-barras{
+    display: none;
+}
+.barras{
+    display: none;
+}
+.caja-barras p{
+    display: none;
+}
+.caja-links{
+    background-color:  rgb(161, 100, 56);
+    margin-top: 0.3rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}
+
+
+footer{
+    background-color: rgb(161, 100, 56);
+    height: 2rem;
+}
+}
