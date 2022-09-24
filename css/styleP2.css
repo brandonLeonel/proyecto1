@@ -3,7 +3,8 @@
     padding: 0%;
     margin: 0%;
 }
-/**responsive P4**/
+/**mobile P2**/
+/**propiedades del header**/
 @media (max-width:800px){
     body{
         font-size: 62.5%;
@@ -38,10 +39,6 @@ li a:visited{
     display: flex;
     justify-content: center;
 }
-/*.lupa{
-    height: 2rem;
-    width: 2rem;
-}*/
 .caja-barras{
     display: flex;
     justify-content: center;
@@ -66,83 +63,54 @@ ul{
 li{
     margin-right: 1rem;
 }
-/*aca empiezan las propiedades del body
-body{
-   background-image: url(../img/fondo.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}*/
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border: solid red 2px;
-    height: 30rem;
+/**aca empiezan las propiedades del body**/
+aside{
+    background-color: red;
     margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
-h2{
-    font-size: 2.5rem;
+main{
+    margin: 0 2rem 0.5rem 2rem;
 }
-.caja-formulario{ 
-    width: 80%;  
-    height: 30%; 
-    margin-top: 1rem; 
-}
-.formulario{
+.cardsP2{
+    background-color: aquamarine;
     width: 100%;
-    height: 100%;
-    border-top: none;
-    border-right: none;
-    border-color: rgb(209, 246, 193);
-    padding-top: 5.5rem;
-    background-color: transparent;
+    height: 16rem;
+    margin-bottom: 1.5rem;
+    border: red solid 1px;
 }
-.formulario:hover{
-    box-shadow: 0rem 0.5rem 1rem 0 black;
-    background-color: rgb(0, 0, 0, 0.5);
-}
-.formulario::placeholder{
-    color: rgb(161, 100, 56);
-    font-size: 2rem;
-}
-.caja-textarea{
-    /* border: solid red 2px; */
-    width: 80%;  
-    height: 40%; 
-    margin-top: 1rem; 
-}
-.textarea{
-    width: 100%;
-    height: 100%;
-    resize: none;
-    background-color: transparent;
-}
-.textarea::placeholder{
-    color: red;
-    font-size: 1.5rem;
-    text-align: center;
-}
-.caja-boton{
-    width: 6rem;
-    height: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-.boton{
+.caja-imgCardsP2{
     width: 100%;
     height: 100%;
 }
+.imgCardsP2{
+    width: 100%;
+    height: 16rem;
+}
+.caja-textoCardsP2{
+    position: relative;
+    bottom: 8rem;
+    z-index: 10;
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.textoImg{
+    color: white;
+}
+/*.caja-fotos-p2{
+    border: solid blue 2px;
+    height: 30rem;
+    margin: 0rem 3rem 2rem 3rem;
+}
+.a{
+    width: 100%;
+    height: 100%;
+}*/
 footer{
-    background-color: rgb(161, 100, 56);
-    height: 4rem;
+        background-color: rgb(161, 100, 56);
+        height: 10rem;
 }
 }
 
-
-/**propiedades descktop p4**/
+/**propiedades descktop p2**/
 @media (min-width:801px){
     body{
         font-size: 62.5%;
@@ -162,7 +130,7 @@ header{
     height: 11.5rem;
     margin-bottom: 1rem;
     position: sticky;
-     /*top: ;*/
+    /*top: ;*/
     display: grid;
     grid-area: header;
 }
@@ -174,6 +142,9 @@ a{
 }
 li a:visited{
     color: white;
+}
+/*li a:hover{
+    background-image: linear-gradient(to bottom, black, grey);*/
 }
 .caja-iconos{
     display: flex;
@@ -215,9 +186,48 @@ li{
     font-size: 1rem;
 }
 
-
+/*aca empiezan las propiedades del body*/
+aside{
+    grid-area: aside;
+    height: 100%;
+    background-color: red;
+}
+main{
+    grid-area: main;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.cardsP2{
+    background-color: aquamarine;
+    height: 16rem;
+    width: 60%;
+    margin-left: 11rem;
+    margin-bottom: 1rem;
+    border: red solid 1px;
+}
+.caja-imgCardsP2{
+    width: 100%;
+    height: 100%;
+}
+.imgCardsP2{
+    width: 100%;
+    height: 16rem;
+}
+.imgCardsP2:hover{
+    width: 50%;
+    transition: 2s;
+}
+.caja-textoCardsP2{
+    position: relative;
+    bottom: 8rem;
+    z-index: 10;
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.textoImg{
+    color: white;
+}
 footer{
+    grid-area: footer;
     background-color: rgb(161, 100, 56);
-    height: 2rem;
 }
 }

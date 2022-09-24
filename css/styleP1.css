@@ -3,7 +3,7 @@
     padding: 0%;
     margin: 0%;
 }
-/**responsive P1**/
+/**mobile P1**/
 /**propiedades del header**/
 @media (max-width:800px){
     body{
@@ -13,7 +13,7 @@
     background-color: rgb(209, 246, 193);
     width: 100%;
     height: 11.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     position: sticky;
 }
 li{
@@ -70,13 +70,17 @@ li{
 /**aca empiezan las propiedades del body**/
 aside{
     background-color: red;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    height: 10rem;
+}
+main{
+    margin: 0 2rem 0.5rem 2rem;
 }
 .cardsP1{
     background-color: aquamarine;
     width: 100%;
     height: 16rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     border: red solid 1px;
 }
 .caja-imgCardsP1{
@@ -98,6 +102,7 @@ aside{
 }
 footer{
     background-color: rgb(161, 100, 56);
+    height: 10rem;
 }
 }
 
@@ -225,3 +230,6 @@ footer{
     background-color: rgb(161, 100, 56);
 }
 }
+
+
+/***pagina 2***/
