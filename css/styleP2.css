@@ -10,7 +10,7 @@
         font-size: 62.5%;
     }
     header{
-        /* background-color: rgb(209, 246, 193); */
+        background-color: rgb(209, 246, 193);
         width: 100%;
         height: 11.5rem;
         margin-bottom: 1rem;
@@ -116,16 +116,25 @@ main{
     font-size: 1.1rem;
 }
 .aa{
-    height: 6rem;
+    height: auto;
     width: 100%;
     word-wrap: break-word;
-    border: solid blue 2px;
     margin-bottom: 2.2rem;
     padding: 0 0.3rem;
+    border-bottom: solid black 2px;
+}
+.caja-botonP2y3{
+    width: 6rem;
+    height: 2rem;
+    margin: auto;
+}
+.botonP2y3{
+    width: 100%;
+    height: 100%;
 }
 footer{
-        background-color: rgb(161, 100, 56);
-        height: 10rem;
+    background-color: rgb(161, 100, 56);
+    height: 10rem;
 }
 }
 
