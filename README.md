@@ -3,7 +3,7 @@ proyecto de coderhouse
 <h1 align="center">Hi 👋, I'm Brandon Funes</h1>
 <h3 align="center">constantly learning</h3>
 
-- 🌱 I’m currently learning **javascript, ciberceguridad**
+- 🌱 I’m currently learning **javascript, ciberseguridad**
 
 - 💬 Ask me about **html y css**
 
