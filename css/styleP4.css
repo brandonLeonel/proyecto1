@@ -5,7 +5,7 @@
 }
 /**mobile P1**/
 /**propiedades del header**/
-@media (max-width:800px){
+@media (max-width:600px){
     body{ background-color: rgba(149, 149, 149, 0.56);
         font-size: 62.5%;
     }
@@ -138,4 +138,204 @@ footer{
 }
 }
 
-/**propiedades descktop p2**/
+/**propiedades medida media p4**/
+@media (min-width:880px) and (max-width:1200px) {
+    body{
+        background-color: rgba(149, 149, 149, 0.56);
+        font-size: 62.5%;
+    }
+    .grilla-general{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main   aside"
+        "main   aside"
+        "footer footer";
+        grid-template-columns: 3fr 1fr;
+    }
+header{
+    background-color: rgb(209, 246, 193);
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 1rem;
+    position: sticky;
+    /*top: ;*/
+    display: grid;
+    grid-area: header;
+}
+li{
+    list-style: none;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+}
+li:hover{
+    background-color:  rgb(149, 149, 149, 0.8);
+    border-radius: 10%;
+}
+.caja-iconos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 100, 56);
+}
+.icono{ 
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.8rem;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+}
+.caja-barras{
+    display: none;
+}
+.barras{
+    display: none;
+}
+.caja-barras p{
+    display: none;
+}
+.caja-links{
+    background-color:  rgb(161, 100, 56);
+    margin-top: 0.3rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}
+
+/*aca empiezan las propiedades del body*/
+aside{
+    grid-area: aside;
+    margin-top: 1.5rem;
+    height: 100%;
+    background-color: red;
+}
+main{
+    grid-area: main;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+}
+.cardsP4{
+    height: 20rem;
+    width: 85%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    border: black solid 1px;
+}
+.caja-imgCardsP4{
+    width: 100%;
+    height: 100%;
+}
+.imgCardsP4{
+    width: 100%;
+    height: 19.9rem;
+}
+.imgCardsP4:hover{
+    display: none;
+} 
+.caja-textoCardsP4{
+        position: relative;
+        bottom: 4.01rem;
+        z-index: 10;
+        background-color: rgba(68, 68, 68, 0.4);
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.textoImg{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 3rem;
+}
+.a{
+    font-size: 1.4rem;
+}
+.aa{
+    position: absolute;
+    height: auto;
+    width: 60%;
+    word-wrap: break-word;
+    margin-left: 2.5rem;
+    padding: 0 2rem 0 2rem;
+    z-index: -1;
+}
+.aa1P4{
+    top: 15rem;
+}
+.aa2P4{
+    top: 38rem;
+}
+.aa3P4{
+    top: 57.5rem;
+}
+.aa4P4{
+    top: 79rem;
+}
+.aa5P4{
+    top: 99.5rem;
+}
+.aa6P4{
+    top: 121rem;
+}
+.aa7P4{
+    top: 144rem;
+}
+.aa8P4{
+    top: 162rem;
+}
+.aa9P4{
+    top: 185rem;
+}
+.aa10P4{
+    top: 204.5rem;
+}
+.aa11P4{
+    top: 225rem;
+}
+.aa12P4{
+    top: 246rem;
+}
+.aa13P4{
+    top: 268rem;
+}
+.aa14P4{
+    top: 288rem;
+}
+.aa15P4{
+    top: 310rem;
+}
+.aa16P4{
+    top: 330rem;
+}
+.caja-botonP2y3{
+    width: 6rem;
+    height: 2rem;
+    margin: auto;
+    
+}
+.botonP2y3{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    grid-area: footer;
+    margin-top: 2rem;
+    background-color: rgb(161, 100, 56);
+}
+}

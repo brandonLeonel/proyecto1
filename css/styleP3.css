@@ -5,7 +5,7 @@
 }
 /**mobile P1**/
 /**propiedades del header**/
-@media (max-width:800px){
+@media (max-width:600px){
     body{ background-color: rgba(149, 149, 149, 0.56);
         font-size: 62.5%;
     }
@@ -42,7 +42,6 @@ li a:visited{
 .caja-barras{
     display: flex;
     justify-content: center;
-    /* background-color: rgb(161, 100, 56); */
 }
 .barras{
     height: 2rem;
@@ -138,4 +137,185 @@ footer{
 }
 }
 
-/**propiedades descktop p2**/
+
+
+/**propiedades medida media p3**/
+@media (min-width:880px) and (max-width:1200px) {
+    body{
+        background-color: rgba(149, 149, 149, 0.56);
+        font-size: 62.5%;
+    }
+    .grilla-general{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main   aside"
+        "main   aside"
+        "footer footer";
+        grid-template-columns: 3fr 1fr;
+    }
+header{
+    background-color: rgb(209, 246, 193);
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 1rem;
+    position: sticky;
+    /*top: ;*/
+    display: grid;
+    grid-area: header;
+}
+li{
+    list-style: none;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+}
+li:hover{
+    background-color:  rgb(149, 149, 149, 0.8);
+    border-radius: 10%;
+}
+.caja-iconos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 100, 56);
+}
+.icono{ 
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.8rem;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+}
+.caja-barras{
+    display: none;
+}
+.barras{
+    display: none;
+}
+.caja-barras p{
+    display: none;
+}
+.caja-links{
+    background-color:  rgb(161, 100, 56);
+    margin-top: 0.3rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}
+
+/*aca empiezan las propiedades del body*/
+aside{
+    grid-area: aside;
+    margin-top: 1.5rem;
+    height: 100%;
+    background-color: red;
+}
+main{
+    grid-area: main;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+}
+.cardsP3{
+    height: 20rem;
+    width: 85%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    border: black solid 1px;
+}
+.caja-imgCardsP3{
+    width: 100%;
+    height: 100%;
+}
+.imgCardsP3{
+    width: 100%;
+    height: 19.9rem;
+}
+.imgCardsP3:hover{
+    display: none;
+} 
+.caja-textoCardsP3{
+        position: relative;
+        bottom: 4.01rem;
+        z-index: 10;
+        background-color: rgba(68, 68, 68, 0.4);
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.textoImg{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 3rem;
+}
+.a{
+    font-size: 1.4rem;
+}
+.aa{
+    position: absolute;
+    height: auto;
+    width: 60%;
+    word-wrap: break-word;
+    margin-left: 2.5rem;
+    padding: 0 2rem 0 2rem;
+    z-index: -1;
+}
+.aa1P3{
+    top: 15.5rem;
+}
+.aa2P3{
+    top: 36rem;
+}
+.aa3P3{
+    top: 58rem;
+}
+.aa4P3{
+    top: 79rem;
+}
+.aa5P3{
+    top: 101rem;
+}
+.aa6P3{
+    top: 121rem;
+}
+.aa7P3{
+    top: 143rem;
+}
+.aa8P3{
+    top: 162rem;
+}
+.aa9P3{
+    top: 183rem;
+}
+.caja-botonP2y3{
+    width: 6rem;
+    height: 2rem;
+    margin: auto;
+    
+}
+.botonP2y3{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    grid-area: footer;
+    margin-top: 2rem;
+    background-color: rgb(161, 100, 56);
+}
+}
