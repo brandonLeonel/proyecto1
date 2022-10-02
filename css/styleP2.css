@@ -8,12 +8,15 @@
 @media (max-width:600px){
     body{ 
         background-color: rgba(149, 149, 149, 0.56);
-        font-size: 62.5%;
+        /* font-size: 62.5%; */
     }
-    header{
+    .navbar-color{
+        background-color: rgb(209, 246, 193);
+    }
+    /* header{
         background-color: rgb(209, 246, 193);
         width: 100%;
-        height: 11.5rem;
+        height: 11.5rem;s
         margin-bottom: 1rem;
         position: sticky;
 }
@@ -25,17 +28,19 @@ a{
 }
 li a:visited{
     color: white;
-}
+}*/
 .caja-iconos{
+    position: sticky;
+    top: 0rem;
     display: flex;
     justify-content: center;
-    background-color: rgb(161, 100, 56);
+    background-color: rgb(161, 100, 56, 0.8);
 }
 .icono{ 
     width: 2rem;
     height: 2rem;
     margin-left: 1rem;
-}
+}/*
 .caja-logo{
     display: flex;
     justify-content: center;
@@ -69,8 +74,8 @@ li{
     border-radius: 10%;
 }
 li:hover{
-    background-color: transparent;
-}
+    background-color: transparent; 
+}*/
 /**aca empiezan las propiedades del body**/
 aside{
     background-color: rgba(127, 211, 1, 0.737);
@@ -156,17 +161,17 @@ footer{
         "footer footer";
         grid-template-columns: 3fr 1fr;
     }
-header{
+/* header{
     background-color: rgb(209, 246, 193);
     width: 100%;
     height: 11.5rem;
     margin-bottom: 1rem;
-    position: sticky;
+    position: sticky; */
     /*top: ;*/
-    display: grid;
+    /* display: grid;
     grid-area: header;
-}
-li{
+} */
+/* li{
     list-style: none;
     margin-top: 0.3rem;
     margin-right: 1rem;
@@ -218,7 +223,7 @@ ul{
 li{
     margin-right: 0.4rem;
     font-size: 1rem;
-}
+} */
 
 /*aca empiezan las propiedades del body*/
 aside{

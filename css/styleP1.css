@@ -3,9 +3,19 @@
     padding: 0%;
     margin: 0%;
 }
+
+/*desktop p1*/
+.navbar-color{
+    background-color: rgb(209, 246, 193);
+}
+
+
+
+
+
 /**mobile P1**/
 /**propiedades del header**/
-@media (max-width:600px){
+/* @media (max-width:600px){
     body{
         font-size: 62.5%;
     }
@@ -39,10 +49,6 @@ li a:visited{
     display: flex;
     justify-content: center;
 }
-/*.lupa{
-    height: 2rem;
-    width: 2rem;
-}*/
 .caja-barras{
     display: flex;
     justify-content: center;
@@ -66,9 +72,9 @@ ul{
 }
 li{
     margin-right: 1rem;
-}
+} */
 /**aca empiezan las propiedades del body**/
-aside{
+/* aside{
     background-color: red;
     margin-bottom: 0.5rem;
     height: 10rem;
@@ -104,7 +110,7 @@ footer{
     background-color: rgb(161, 100, 56);
     height: 10rem;
 }
-}
+} */
 
 
 
@@ -113,7 +119,7 @@ footer{
 
 
 /**propiedades medida media p1**/
-@media (min-width:880px) and (max-width:1200px) {
+/* @media (min-width:880px) and (max-width:1200px) {
     body{
         background-color: rgba(149, 149, 149, 0.56);
         font-size: 62.5%;
@@ -133,7 +139,7 @@ header{
     height: 11.5rem;
     margin-bottom: 1rem;
     position: sticky;
-    /*top: ;*/
+    top: ;
     display: grid;
     grid-area: header;
 }
@@ -189,9 +195,9 @@ ul{
 li{
     margin-right: 0.4rem;
     font-size: 1rem;
-}
+} */
 /*aca empiezan las propiedades del body*/
-aside{
+/* aside{
     display: grid;
     grid-area: aside;
     height: 100%;
@@ -237,7 +243,7 @@ footer{
     grid-area: footer;
     background-color: rgb(161, 100, 56);
 }
-}
+} */
 
 
 /***pagina 2***/
