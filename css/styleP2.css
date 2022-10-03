@@ -5,30 +5,15 @@
 }
 /**mobile P2**/
 /**propiedades del header**/
-@media (max-width:600px){
+@media (max-width:700px){
     body{ 
         background-color: rgba(149, 149, 149, 0.56);
-        /* font-size: 62.5%; */
+        font-size: 62.5%;
     }
     .navbar-color{
         background-color: rgb(209, 246, 193);
     }
-    /* header{
-        background-color: rgb(209, 246, 193);
-        width: 100%;
-        height: 11.5rem;s
-        margin-bottom: 1rem;
-        position: sticky;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-li a:visited{
-    color: white;
-}*/
+
 .caja-iconos{
     position: sticky;
     top: 0rem;
@@ -40,43 +25,8 @@ li a:visited{
     width: 2rem;
     height: 2rem;
     margin-left: 1rem;
-}/*
-.caja-logo{
-    display: flex;
-    justify-content: center;
 }
-.caja-barras{
-    display: flex;
-    justify-content: center;
-}
-.barras{
-    height: 2rem;
-    width: 2rem;
-}
-.caja-barras p{
-    position: absolute;
-    margin-top: 0.9rem;
-    color: rgb(18, 14, 14);
-}
-.caja-links{
-    background-color:  rgb(161, 100, 56);
-}
-ul{
-    display: flex;
-    justify-content:center;
-}
-li{
-    margin-top: 0.3rem;
-    margin-right: 1rem;
-    margin-bottom: 0.3rem;
-    padding: 0.5rem;
-    background-color: rgb(149, 149, 149, 0.8);
-    border-radius: 10%;
-}
-li:hover{
-    background-color: transparent; 
-}*/
-/**aca empiezan las propiedades del body**/
+/********************aca empiezan las propiedades del body********************/
 aside{
     background-color: rgba(127, 211, 1, 0.737);
     margin-top: 1.5rem;
@@ -86,24 +36,24 @@ aside{
 main{
     margin: 0 2rem 0.5rem 2rem;
 }
-.cardsP2{
+.cards{
     width: 100%;
     height: 16rem;
     margin-bottom: 1.5rem;
 }
-.cardsP2:hover{
+.cards:hover{
     transform: scale(1.1);
 }
-.caja-imgCardsP2{
+.caja-imgCards{
     width: 100%;
     height: 100%;
 }
-.imgCardsP2{
+.imgCards{
     width: 100%;
     height: 16rem;
     border: solid black 1px;
 }
-.caja-textoCardsP2{
+.caja-textoCards{
     position: relative;
     bottom: 4rem;
     z-index: 10;
@@ -147,169 +97,85 @@ footer{
 
 
 /**propiedades medida media p2**/
-@media (min-width:880px) and (max-width:1200px) {
-    body{
+@media (min-width:701px) and (max-width:900px) {
+
+body{ 
         background-color: rgba(149, 149, 149, 0.56);
         font-size: 62.5%;
     }
-    .grilla-general{
-        display: grid;
-        grid-template-areas: 
-        "header header"
-        "main   aside"
-        "main   aside"
-        "footer footer";
-        grid-template-columns: 3fr 1fr;
+.navbar-color{
+        background-color: rgb(209, 246, 193);
     }
-/* header{
-    background-color: rgb(209, 246, 193);
-    width: 100%;
-    height: 11.5rem;
-    margin-bottom: 1rem;
-    position: sticky; */
-    /*top: ;*/
-    /* display: grid;
-    grid-area: header;
-} */
-/* li{
-    list-style: none;
-    margin-top: 0.3rem;
-    margin-right: 1rem;
-    margin-bottom: 0.3rem;
-    padding: 0.5rem;
-}
-a{
-    text-decoration: none;
-}
-li a:visited{
-    color: white;
-}
-li:hover{
-    background-color:  rgb(149, 149, 149, 0.8);
-    border-radius: 10%;
-}
+
 .caja-iconos{
-    width: 100%;
+    position: sticky;
+    top: 0rem;
     display: flex;
     justify-content: center;
-    background-color: rgb(161, 100, 56);
+    background-color: rgb(161, 100, 56, 0.8);
 }
 .icono{ 
     width: 4rem;
     height: 4rem;
     margin-left: 1.8rem;
 }
-.caja-logo{
-    display: flex;
-    justify-content: center;
-}
-.caja-barras{
-    display: none;
-}
-.barras{
-    display: none;
-}
-.caja-barras p{
-    display: none;
-}
-.caja-links{
-    background-color:  rgb(161, 100, 56);
-    margin-top: 0.3rem;
-}
-ul{
-    display: flex;
-    justify-content: space-evenly;
-}
-li{
-    margin-right: 0.4rem;
-    font-size: 1rem;
-} */
 
 /*aca empiezan las propiedades del body*/
 aside{
-    grid-area: aside;
     margin-top: 1.5rem;
-    height: 100%;
+    height: 23rem;
     background-color: red;
 }
 main{
-    grid-area: main;
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     
 }
-.cardsP2{
-    height: 20rem;
+.cards{
+    height: 22rem;
     width: 85%;
     margin-left: 3rem;
     margin-bottom: 1rem;
     border: black solid 1px;
 }
-.caja-imgCardsP2{
+.caja-imgCards{
     width: 100%;
     height: 100%;
 }
-.imgCardsP2{
+.imgCards{
     width: 100%;
     height: 19.9rem;
 }
-.imgCardsP2:hover{
+.imgCards:hover{
     display: none;
 } 
-.caja-textoCardsP2{
-        position: relative;
-        bottom: 4.01rem;
-        z-index: 10;
-        background-color: rgba(68, 68, 68, 0.4);
-        height: 4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.caja-textoCards{
+    position: relative;
+    bottom: 4.01rem;
+    z-index: 10;
+    background-color: rgba(68, 68, 68, 0.4);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .textoImg{
-    color: rgb(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
 }
 .a{
     font-size: 1.4rem;
 }
 .aa{
-    position: absolute;
     height: auto;
-    width: 60%;
+    width: 85%;
     word-wrap: break-word;
-    margin-left: 2.5rem;
-    padding: 0 2rem 0 2rem;
-    z-index: -1;
+    margin-bottom: 2.2rem;
+    padding: 0 0.3rem;
+    border-bottom: solid black 2px;
 }
-.aa1P2{
-    top: 19rem;
-}
-.aa2P2{
-    top: 38rem;
-}
-.aa3P2{
-    top: 58rem;
-}
-.aa4P2{
-    top: 79rem;
-}
-.aa5P2{
-    top: 102rem;
-}
-.aa6P2{
-    top: 121rem;
-}
-.aa7P2{
-    top: 144rem;
-}
-.aa8P2{
-    top: 162rem;
-}
-.aa9P2{
-    top: 182rem;
-}
+
 .caja-botonP2y3{
     width: 6rem;
     height: 2rem;
@@ -325,4 +191,6 @@ footer{
     margin-top: 2rem;
     background-color: rgb(161, 100, 56);
 }
-}
+} 
+
+
