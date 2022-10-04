@@ -6,14 +6,14 @@
 /**mobile P2**/
 /**propiedades del header**/
 @media (max-width:700px){
-    body{ 
-        background-color: rgba(149, 149, 149, 0.56);
-        font-size: 62.5%;
+    
+body{ 
+    background-color: rgba(149, 149, 149, 0.56);
+    font-size: 62.5%;
     }
-    .navbar-color{
-        background-color: rgb(209, 246, 193);
+.navbar-color{
+    background-color: rgb(209, 246, 193);
     }
-
 .caja-iconos{
     position: sticky;
     top: 0rem;
