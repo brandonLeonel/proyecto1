@@ -3,13 +3,17 @@
     padding: 0%;
     margin: 0%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 /**mobile**/
 /**propiedades del header**/
 @media (max-width:700px){
     
 body{ 
+    
     background-color: rgba(149, 149, 149, 0.56);
     font-size: 62.5%;
+    font-family: 'Roboto Condensed';
+
     }
 .navbar-color{
     background-color: rgb(209, 246, 193);
@@ -34,8 +38,14 @@ aside{
     margin-bottom: 1rem;
     height: 10rem;
 }
+.caja-h1{
+    border-bottom: double black 2px;
+    margin: 2rem 0 2rem 0rem;
+    padding: 0 0.5rem 0 1rem;
+}
 h1{
-    margin: 2rem 0;
+    
+    font-size: 2.5rem;
 }
 main{
     margin: 0 2rem 0.5rem 2rem;
