@@ -18,6 +18,10 @@ body{
 .navbar-color{
     background-color: rgb(209, 246, 193);
     }
+    ul li a{
+        font-size: 1rem;
+        font-weight: bolder;
+    }
 .caja-iconos{
     position: sticky;
     top: 0rem;
@@ -39,19 +43,18 @@ aside{
     height: 10rem;
 }
 .caja-h1{
-    border-bottom: double black 2px;
+    border-bottom: dotted black 2px;
     margin: 2rem 0 2rem 0rem;
     padding: 0 0.5rem 0 1rem;
 }
 h1{
-    
     font-size: 2.5rem;
 }
 main{
     margin: 0 2rem 0.5rem 2rem;
 }
-.card1P1{
-    margin-top: 2rem;
+.productos{
+    margin: 0 0 1rem 3rem;
 }
 .carousel-tamaño{
     width: 80%;
