@@ -179,7 +179,7 @@ main{
     width: 20rem;
     height: 16rem;
 }
-    .grid-productos{
+.grid-productos{
     display: grid;
     grid-template-areas: 
     "producto1  producto2"
@@ -189,8 +189,8 @@ main{
     "producto9  producto10"
     "producto11 producto12"
     "producto13 producto14"
-    "producto15";
-    /* justify-content: space-between; */
+    "producto15 producto15";
+    justify-content: space-between;
 }
 .productos{
     margin-bottom: 2rem;
