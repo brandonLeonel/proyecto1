@@ -130,6 +130,72 @@ p::selection{
     width: 100%;
     height: 100%;
 }
+.mainP5{
+    background-image: url(../img/plantasPaisajeFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 2rem 0.5rem 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    margin: 1rem 0 0 0;
+}
+h2{
+    font-size: 2.5rem;
+}
+.caja-formulario{ 
+    width: 80%;  
+    height: 15%; 
+    margin-top: 1rem; 
+}
+.formulario{
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-right: none;
+    border-color: rgb(209, 246, 193);
+    padding-top: 3.5rem;
+    background-color: transparent;
+}
+.formulario:hover{
+    box-shadow: 0rem 0.5rem 1rem 0 black;
+    background-color: rgba(221, 220, 220, 0.863);
+}
+.formulario::placeholder{
+    color: rgb(161, 100, 56);
+    font-size: 1.7rem;
+    padding: 0 0 0 2rem;
+}
+.caja-textarea{ 
+    width: 80%;  
+    height: 40%; 
+    margin-top: 1rem; 
+}
+.textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: transparent;
+}
+.textarea::placeholder{
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.caja-botonP5{
+    width: 6rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.botonP5{
+    width: 100%;
+    height: 100%;
+}
 footer{
     display: flex;
     background-color: rgb(161, 100, 56, 0.8);
@@ -150,7 +216,7 @@ footer{
                     @media (min-width:701px){
 
 body{ 
-    background-color: rgba(221, 220, 220, 0.863);;
+    background-color: rgba(221, 220, 220, 0.863);
     font-size: 62.5%;
     font-family: 'Roboto Condensed';
 }
