@@ -159,7 +159,7 @@ h2{
     border-top: none;
     border-right: none;
     border-color: rgb(209, 246, 193);
-    padding-top: 3.5rem;
+    padding-top:1rem;
     background-color: transparent;
 }
 .formulario:focus{
