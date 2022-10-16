@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    font-family: 'Roboto Condensed';
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 /**mobile**/
@@ -12,7 +13,6 @@ body{
     /* background-color: rgba(149, 149, 149, 0.56); */
     background-color: rgba(221, 220, 220, 0.863);
     font-size: 62.5%;
-    font-family: 'Roboto Condensed';
     }
 .navbar-color{
     background-color: rgb(209, 246, 193);
@@ -244,6 +244,14 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
                 /**propiedades medida media**/
                     @media (min-width:701px){
 
@@ -449,6 +457,9 @@ footer{
 
 
 
+
+
+
                     /**propiedades medida desktop**/
                     @media (min-width:1000px){
 
@@ -634,6 +645,7 @@ main{
 }
 .cards:hover{
     transform: scale(1.03);
+    box-shadow: 0rem 0.5rem 1rem 0 black;
 }
 .caja-imgCards{
     width: 100%;
