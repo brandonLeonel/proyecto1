@@ -159,8 +159,10 @@ h2{
     border-top: none;
     border-right: none;
     border-color: rgb(209, 246, 193);
-    /* padding-top:1rem; */
+    padding-top:2.8rem;
+    padding-left: 0.1rem;
     background-color: transparent;
+    font-size: 1.5rem;
 }
 .formulario:focus{
     box-shadow: 0rem 0.5rem 1rem 0 black;
@@ -170,7 +172,7 @@ h2{
 .formulario::placeholder{
     color: rgb(161, 100, 56);
     font-size: 1.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.3rem;
 }
 .caja-textarea{ 
     width: 80%;  
@@ -184,6 +186,8 @@ h2{
     background-color: transparent;
     border-top: none;
     border-color: rgb(209, 246, 193);
+    font-size: 1.2rem;
+    padding-left: 0.1rem;
 }
 .textarea:focus{
     box-shadow: 0rem 0.5rem 1rem 0 black;
@@ -225,9 +229,16 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 0.8rem;
 }
 .p-mapa{
     font-size: 1rem;
+}
+.mapa2{
+    display: none;
+}
+.mapa3{
+    display: none;
 }
 }
 
@@ -407,13 +418,31 @@ footer{
     display: flex;
     background-color: rgb(161, 100, 56, 0.8);
     height: 10rem;
+    border-top: solid 1px black;
 }
 .footer-izquierda{
     width: 50%;
-    border-right: solid black 1px;
+    border-right: solid rgba(0, 0, 0, 0.104) 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-derecha{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.p-mapa{
+    font-size: 1rem;
+}
+.mapa{
+    display: none;
+}
+.mapa3{
+    display: none;
 }
 }
 
