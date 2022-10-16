@@ -41,7 +41,7 @@ ul li a{
     padding: 0 0.5rem 0 1rem;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 h1::selection{
     background-color: black;
@@ -145,7 +145,8 @@ form{
     margin: 1rem 0 0 0;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin: 0 auto;
 }
 .caja-formulario{ 
     width: 80%;  
@@ -161,14 +162,15 @@ h2{
     padding-top: 3.5rem;
     background-color: transparent;
 }
-.formulario:hover{
+.formulario:focus{
     box-shadow: 0rem 0.5rem 1rem 0 black;
     background-color: rgba(221, 220, 220, 0.863);
+    outline: none;
 }
 .formulario::placeholder{
     color: rgb(161, 100, 56);
-    font-size: 1.7rem;
-    padding: 0 0 0 2rem;
+    font-size: 1.5rem;
+    padding: 0 0 0 0.5rem;
 }
 .caja-textarea{ 
     width: 80%;  
@@ -180,11 +182,19 @@ h2{
     height: 100%;
     resize: none;
     background-color: transparent;
+    border-top: none;
+    border-color: rgb(209, 246, 193);
+}
+.textarea:focus{
+    box-shadow: 0rem 0.5rem 1rem 0 black;
+    background-color: rgba(221, 220, 220, 0.863);
+    outline: none;
 }
 .textarea::placeholder{
-    color: red;
+    color: rgb(161, 100, 56);
     font-size: 1.5rem;
     text-align: center;
+    padding-top: 4rem;
 }
 .caja-botonP5{
     width: 6rem;
@@ -200,13 +210,24 @@ footer{
     display: flex;
     background-color: rgb(161, 100, 56, 0.8);
     height: 10rem;
+    border-top: solid 1px black;
 }
 .footer-izquierda{
     width: 50%;
-    border-right: solid black 1px;
+    border-right: solid rgba(0, 0, 0, 0.104) 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-derecha{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p-mapa{
+    font-size: 1rem;
 }
 }
 
