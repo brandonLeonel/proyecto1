@@ -1,0 +1,56 @@
+
+@media (max-width:700px){
+    main{
+        .cards{
+            width: 100%;
+            height: 16rem;
+            margin-bottom: 1.5rem;
+                .caja-imgCards{
+                    width: 100%;
+                    height: 100%;
+                        .imgCards{
+                            width: 100%;
+                            height: 16rem;
+                            border: solid black 1px;
+                        }
+                }
+                .caja-textoCards{
+                    position: relative;
+                    bottom: 4rem;
+                    z-index: 10;
+                    background-color: rgba(68, 68, 68, 0.6);
+                    height: 4rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                        .textoImg{
+                            color: white;
+                            font-size: 2rem;
+                        }
+                }
+        }
+        .cards:hover{
+            transform: scale(1.1);
+        }
+        .aa{
+            height: auto;
+            width: 100%;
+            word-wrap: break-word;
+            margin-bottom: 2.2rem;
+            padding: 0 0.3rem;
+            border-bottom: solid black 2px;
+                .a{
+                    font-size: 1.1rem;
+                }
+        }
+        .caja-boton{
+            width: 6rem;
+            height: 2rem;
+            margin: auto;
+            .boton{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 *{
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
     font-family: 'Roboto Condensed';
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 /**mobile**/
 /**propiedades del header**/
 @media (max-width:700px){
@@ -258,7 +258,6 @@ footer{
 body{ 
     background-color: rgba(221, 220, 220, 0.863);
     font-size: 62.5%;
-    font-family: 'Roboto Condensed';
 }
 .navbar-color{
         background-color: rgb(209, 246, 193);
@@ -466,7 +465,6 @@ footer{
 body{ 
         background-color: white;
         font-size: 62.5%;
-        font-family: 'Roboto Condensed';
     }
 .navbar-color{
         background-color: rgb(209, 246, 193);
@@ -707,5 +705,3 @@ footer{
     width: 50%;
 }
 }
-
-

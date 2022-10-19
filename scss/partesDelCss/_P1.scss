@@ -1,0 +1,65 @@
+@media (max-width:700px){
+    body{ 
+        background-color: rgba(221, 220, 220, 0.863);
+        font-size: 62.5%;
+            .caja-h1{
+                border-bottom: dotted black 2px;
+                margin: 2rem 0 2rem 0rem;
+                padding: 0 0.5rem 0 1rem;
+                    h1{
+                        font-size: 2rem;
+                    }
+                    h1::selection{
+                        background-color: black;
+                        color: white;
+                    }
+        }
+        main{
+            margin: 0 2rem 0.5rem 2rem;
+                .carousel-tamaño{
+                    width: 100%;
+                    height: 60%;
+                    margin: 0 auto;
+                        .img-carousel{
+                            margin-top: 1rem;
+                            width: 20rem;
+                            height: 16rem;
+                        }
+                }
+                .productos{
+                    margin-bottom: 1rem;
+                    .img-productos{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .productos-descktop{
+                    display: none;
+                }
+                .grid-productos{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+        }
+        p::selection{
+            background-color: black;
+            color: white;
+        }
+        .caja-boton{
+            width: 6rem;
+            height: 2rem;
+            margin: auto;
+            .boton{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+@media (min-width:701px){
+    
+}

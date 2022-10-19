@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto Condensed';
+}
+
+
+@import './partesDelCss/header';
+@import './partesDelCss/P1';
+@import './partesDelCss/P2P3P4';
+@import './partesDelCss/P5';
+@import './partesDelCss/footer';

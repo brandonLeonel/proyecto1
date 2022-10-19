@@ -1,0 +1,89 @@
+@media (max-width:700px){
+footer{
+    display: flex;
+    background-color: rgb(161, 100, 56, 0.8);
+    height: 10rem;
+    border-top: solid 1px black;
+        .footer-izquierda{
+            width: 50%;
+            border-right: solid rgba(0, 0, 0, 0.104) 1px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .p-mapa{
+                    font-size: 1rem;
+                }
+                .mapa2{
+                    display: none;
+                }
+                .mapa3{
+                    display: none;
+                }
+        }
+        .footer-derecha{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+        }
+}
+}
+
+
+@media (min-width:701px){
+    footer{
+        display: flex;
+        background-color: rgb(161, 100, 56, 0.8);
+        height: 10rem;
+        border-top: solid 1px black;
+        .footer-izquierda{
+            width: 55%;
+            border-right: solid rgba(0, 0, 0, 0.104) 1px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .p-mapa{
+                    font-size: 1rem;
+                }
+                .mapa{
+                    display: none;
+                }
+                .mapa3{
+                    display: none;
+                }
+            }
+            .footer-derecha{
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
+            }
+        }
+    }
+
+
+/**propiedades medida desktop**/
+@media (min-width:1000px){
+    footer{
+        .footer-izquierda{
+            width: 50%;
+            .p-mapa{
+                font-size: 1rem;
+            }
+            .mapa{
+                display: none;
+            }
+            .mapa2{
+                display: none;
+            }
+            .mapa3{display: inline-block;}
+        }
+        .footer-derecha{
+            width: 50%;
+        }
+    }
+}

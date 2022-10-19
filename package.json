@@ -1,0 +1,23 @@
+{
+  "name": "plantasweb",
+  "version": "1.0.0",
+  "description": "proyecto de coderhouse\r <h1 align=\"center\">Hi 👋, I'm Brandon Funes</h1>\r <h3 align=\"center\">constantly learning</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonLeonel/proyecto1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonLeonel/proyecto1/issues"
+  },
+  "homepage": "https://github.com/brandonLeonel/proyecto1#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
