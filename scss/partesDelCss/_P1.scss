@@ -13,7 +13,7 @@
                         background-color: black;
                         color: white;
                     }
-        }
+            }
         main{
             margin: 0 2rem 0.5rem 2rem;
                 .carousel-tamaño{
@@ -42,24 +42,227 @@
                     align-items: center;
                     
                 }
+            .caja-boton{
+                width: 6rem;
+                height: 2rem;
+                margin: auto;
+                .boton{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
         }
         p::selection{
             background-color: black;
             color: white;
-        }
-        .caja-boton{
-            width: 6rem;
-            height: 2rem;
-            margin: auto;
-            .boton{
-                width: 100%;
-                height: 100%;
-            }
         }
     }
 }
 
 
 @media (min-width:701px){
-    
+    body{ 
+        background-color: rgba(221, 220, 220, 0.863);
+        font-size: 62.5%;
+        .caja-h1{
+            border-bottom: dotted black 2px;
+            margin: 2rem 0 2rem 0rem;
+            h1{
+                font-size: 2.5rem;
+                margin-left: 16%;
+            }
+            h1::selection{
+                background-color: black;
+                color: white;
+            }
+        }
+        main{
+            margin: 0 4rem 0.5rem 4rem;
+            .carousel-tamaño{
+                width: 100%;
+                height: 80%;
+                margin: 0 auto;
+                    .img-carousel{
+                        margin-top: 1rem;
+                        width: 20rem;
+                        height: 20rem;
+                    }
+            }
+            .grid-productos{
+                display: grid;
+                grid-template-areas: 
+                "producto1  producto2"
+                "producto3  producto4"
+                "producto5  producto6"
+                "producto7  producto8"
+                "producto9  producto10"
+                "producto11 producto12"
+                "producto13 producto14"
+                "producto15 producto15";
+                justify-content: space-between;
+                .productos{
+                    margin-bottom: 2rem;
+                }
+                .producto1{
+                    grid-area: producto1;
+                }
+                .producto2{
+                    grid-area: producto2;
+                }
+                .producto3{
+                    grid-area: producto3;
+                }
+                .producto4{
+                    grid-area: producto4;
+                }
+                .producto5{
+                    grid-area: producto5;
+                }
+                .producto6{
+                    grid-area: producto6;
+                }
+                .producto7{
+                    grid-area: producto7;
+                }
+                .producto8{
+                    grid-area: producto8;
+                }
+                .producto9{
+                    grid-area: producto9;
+                }
+                .producto10{
+                    grid-area: producto10;
+                }
+                .producto11{
+                    grid-area: producto11;
+                }
+                .producto12{
+                    grid-area: producto12;
+                }
+                .producto13{
+                    grid-area: producto13;
+                }
+                .producto14{
+                    grid-area: producto14;
+                }
+                .producto15{
+                    grid-area: producto15;
+                }
+            }
+            .caja-boton{
+                width: 6rem;
+                height: 2rem;
+                margin: auto;
+                    .boton{
+                        width: 100%;
+                        height: 100%;
+                    }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1000px){
+    body{ 
+        background-color: white;
+        font-size: 62.5%;
+        .caja-h1{
+            border-bottom: dotted black 2px;
+            margin: 2rem 0 2rem 0rem;
+            padding: 0 0.5rem 0 1rem;
+            h1{
+                font-size: 2.5rem;
+                margin-left: 30%;
+            }
+            h1::selection{
+                background-color: black;
+                color: white;
+            }
+        }
+        main{
+            margin: 0 5rem 0.5rem 5rem;
+            .carousel-tamaño{
+                width: 100%;
+                height: 35rem;
+                margin: 0 auto;
+                    .img-carousel{
+                        margin-top: 1rem;
+                        width: 20rem;
+                        height: 35rem;
+                    }
+            }
+            .grid-productos{
+                display: grid;
+                grid-template-areas: 
+                "producto1 producto2 producto3"
+                "producto4 producto5 producto6"
+                "producto7 producto8 producto9"
+                "producto10 producto11 producto12"
+                "producto13 producto14 producto15";
+                justify-content: space-between;
+                .productos{
+                    margin-bottom: 2rem;
+                }
+                .producto1{
+                    grid-area: producto1;
+                }
+                .producto2{
+                    grid-area: producto2;
+                }
+                .producto3{
+                    grid-area: producto3;
+                }
+                .producto4{
+                    grid-area: producto4;
+                }
+                .producto5{
+                    grid-area: producto5;
+                }
+                .producto6{
+                    grid-area: producto6;
+                }
+                .producto7{
+                    grid-area: producto7;
+                }
+                .producto8{
+                    grid-area: producto8;
+                }
+                .producto9{
+                    grid-area: producto9;
+                }
+                .producto10{
+                    grid-area: producto10;
+                }
+                .producto11{
+                    grid-area: producto11;
+                }
+                .producto12{
+                    grid-area: producto12;
+                }
+                .producto13{
+                    grid-area: producto13;
+                }
+                .producto14{
+                    grid-area: producto14;
+                }
+                .producto15{
+                    grid-area: producto15;
+                }
+            }
+            .caja-boton{
+                width: 6rem;
+                height: 2rem;
+                margin: auto;
+                    .boton{
+                        width: 100%;
+                        height: 100%;
+                    }
+            }
+        }
+        p::selection{
+            background-color: black;
+            color: white;
+        }
+    }
 }
