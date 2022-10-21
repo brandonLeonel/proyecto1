@@ -524,7 +524,7 @@
     color: white;
     font-size: 2rem;
   }
-  main .grid-plantas .contenedor-cards .cards .cards:hover {
+  main .grid-plantas .contenedor-cards .cards:hover {
     transform: scale(1.03);
     box-shadow: 0rem 0.5rem 1rem 0 black;
   }
