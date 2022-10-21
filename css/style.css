@@ -631,6 +631,88 @@
     height: 100%;
   }
 }
+@media (min-width: 701px) {
+  .mainP5 {
+    background-image: url(../img/plantaPaisajeFondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 2rem 0.5rem 2rem;
+  }
+  .mainP5 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    margin: 1rem 0 0 0;
+  }
+  .mainP5 form h2 {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  .mainP5 form .caja-formulario {
+    width: 80%;
+    height: 15%;
+    margin-top: 1rem;
+  }
+  .mainP5 form .caja-formulario .formulario {
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-right: none;
+    border-color: rgb(209, 246, 193);
+    padding-top: 2.3rem;
+    padding-left: 0.1rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+  .mainP5 form .formulario:focus {
+    box-shadow: 0rem 0.5rem 1rem 0 black;
+    background-color: rgba(221, 220, 220, 0.863);
+    outline: none;
+  }
+  .mainP5 form .formulario::placeholder {
+    color: rgb(161, 100, 56);
+    font-size: 1.5rem;
+    padding-left: 0.3rem;
+  }
+  .mainP5 form .caja-textarea {
+    width: 80%;
+    height: 40%;
+    margin-top: 1rem;
+  }
+  .mainP5 form .caja-textarea .textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: transparent;
+    border-top: none;
+    border-color: rgb(209, 246, 193);
+    font-size: 1.2rem;
+    padding-left: 0.1rem;
+  }
+  .mainP5 form .textarea:focus {
+    box-shadow: 0rem 0.5rem 1rem 0 black;
+    background-color: rgba(221, 220, 220, 0.863);
+    outline: none;
+  }
+  .mainP5 form .textarea::placeholder {
+    color: rgb(161, 100, 56);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .mainP5 form .caja-botonP5 {
+    width: 6rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .mainP5 form .caja-botonP5 .botonP5 {
+    width: 100%;
+    height: 100%;
+  }
+}
 @media (max-width: 700px) {
   footer {
     display: flex;
