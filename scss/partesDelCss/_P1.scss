@@ -163,6 +163,21 @@
 }
 
 
+@media (min-width:768px){
+    .background-carousel-texto{
+        background-color: rgb(237, 233, 233, 0.3);
+    }
+    .font-size-h5{
+        font-size: 1.5rem;
+        color: black;
+    }
+    .font-size-p-carousel{
+        color: black;
+        font-size: 1.2rem;
+    }
+}
+
+
 @media (min-width:1000px){
     body{ 
         background-color: white;

@@ -28,8 +28,36 @@
     height: 2rem;
     margin-left: 1rem;
   }
+  del {
+    text-decoration: none;
+  }
 }
-@media (min-width: 701px) {
+@media (min-width: 701px) and (max-width: 767px) {
+  .navbar-color {
+    background-color: rgb(209, 246, 193);
+  }
+  ul li a {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  ul li a del {
+    text-decoration: none;
+  }
+  .caja-iconos {
+    position: sticky;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(161, 100, 56, 0.8);
+    z-index: 20;
+  }
+  .caja-iconos .icono {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
   .navbar-color {
     background-color: rgb(209, 246, 193);
   }
@@ -223,6 +251,19 @@
   body main .caja-boton .boton {
     width: 100%;
     height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .background-carousel-texto {
+    background-color: rgba(237, 233, 233, 0.3);
+  }
+  .font-size-h5 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  .font-size-p-carousel {
+    color: black;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1000px) {
