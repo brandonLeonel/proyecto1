@@ -27,6 +27,12 @@ footer{
             justify-content: center;
             align-items: center;
             font-size: 0.8rem;
+                p{
+                    color: white;
+                        b{
+                            color: black;
+                        }
+                }
         }
 }
 }
@@ -61,12 +67,18 @@ footer{
                 justify-content: center;
                 align-items: center;
                 font-size: 1rem;
+                    p{
+                        color: white;
+                            b{
+                                color: black;
+                            }
+                    }
             }
         }
     }
 
 
-/**propiedades medida desktop**/
+
 @media (min-width:1000px){
     footer{
         .footer-izquierda{
