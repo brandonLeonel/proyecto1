@@ -752,6 +752,7 @@
   .mainP5 form .caja-botonP5 .botonP5 {
     width: 100%;
     height: 100%;
+    cursor: pointer;
   }
 }
 @media (min-width: 1000px) {
